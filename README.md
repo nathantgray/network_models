@@ -1,2 +1,2 @@
 # network_models
-Supplemental data for jounal artical "Scaling Distributed Optimal Renewable Energy Coordination in Unbalanced Distribution Systems"
+Supplemental data for jounal article "Scaling Distributed Optimal Renewable Energy Coordination in Unbalanced Distribution Systems"

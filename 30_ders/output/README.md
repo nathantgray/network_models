@@ -1,0 +1,1 @@
+GridLAB-D saves output files to this folder.

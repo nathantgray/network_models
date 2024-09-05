@@ -1,0 +1,29 @@
+/home/gray/.virtualenvs/helics/bin/python /home/gray/git/CPMACosim/gridlabd/30_ders_advanced/dss_validate.py
+v diff
+a    0.005986
+b    0.003587
+c    0.003814
+dtype: float64
+dopf total p loads
+pl_a    1.408071
+pl_b    0.950354
+pl_c    1.153104
+dtype: float64
+dopf total q loads
+ql_a    0.747358
+ql_b    0.570987
+ql_c    0.613695
+dtype: float64
+dss total p loads
+pl_a    1.407526
+pl_b    0.936856
+pl_c    1.143770
+dtype: float64
+dss total q loads
+ql_a    0.747079
+ql_b    0.563758
+ql_c    0.608126
+dtype: float64
+0.028749018305762375
+
+Process finished with exit code 0

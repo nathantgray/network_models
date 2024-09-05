@@ -1,0 +1,203 @@
+{
+  "coreInit": "--federates=1",
+  "name": "GLD1",
+  "coreName": "GLD1",
+  "coreType": "zmq",
+  "log_level": "timing",
+  "only_transmit_on_change": false,
+  "period": 1,
+  "wait_for_current_time_update": false,
+  "uninterruptible": true,
+  "publications": [
+    {
+      "key": "met1_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_1",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met1_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_1",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met1_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_1",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "met8_P_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_8_243",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met8_P_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_8_243",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met8_P_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_8_243",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met243_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_243",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met243_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_243",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met243_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_243",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "met188_P_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_188_252",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met188_P_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_188_252",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met188_P_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_188_252",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met252_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_252",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met252_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_252",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met252_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_252",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "met213_P_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "oh_line_213_211",
+        "property": "power_in_A"
+      }
+    },
+    {
+      "key": "met213_P_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "oh_line_213_211",
+        "property": "power_in_B"
+      }
+    },
+    {
+      "key": "met213_P_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "oh_line_213_211",
+        "property": "power_in_C"
+      }
+    },
+    {
+      "key": "met213_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_213",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met213_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_213",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met213_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_213",
+        "property": "measured_voltage_C"
+      }
+    }
+  ],
+  "subscriptions": []
+}

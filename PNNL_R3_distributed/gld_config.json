@@ -1,0 +1,2616 @@
+{
+  "coreInit": "--federates=1",
+  "name": "GLD1",
+  "coreName": "GLD1",
+  "coreType": "zmq",
+  "log_level": "timing",
+  "only_transmit_on_change": false,
+  "period": 1,
+  "wait_for_current_time_update": false,
+  "uninterruptible": true,
+  "publications": [
+    {
+      "key": "met1_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_1",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met1_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_1",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met1_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_1",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "met8_P_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_8_243",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met8_P_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_8_243",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met8_P_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_8_243",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "inv300_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_300A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv298_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_298A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv298_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_298B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv298_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_298C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv307_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_307B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv305_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_305B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv299_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_299A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv299_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_299B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv299_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_299C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv301_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_301A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv301_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_301B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv301_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_301C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv303_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_303C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv306_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_306A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv306_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_306B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv306_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_306C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv304_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_304A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv304_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_304B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv304_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_304C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv302_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_302C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "met243_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_243",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met243_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_243",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met243_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_243",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "met188_P_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_188_252",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met188_P_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_188_252",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "met188_P_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "switch_188_252",
+        "property": "power_in"
+      }
+    },
+    {
+      "key": "inv329_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_329A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv329_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_329B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv329_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_329C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv291_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_291A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv291_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_291B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv291_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_291C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv310_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_310A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv310_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_310B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv310_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_310C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv292_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_292A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv292_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_292B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv292_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_292C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv327_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_327A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv327_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_327B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv327_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_327C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv293_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_293A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv297_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_297A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv308_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_308A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv308_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_308B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv308_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_308C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv269_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_269A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv270_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_270A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv309_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_309B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv311_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_311B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "met252_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_252",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met252_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_252",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met252_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_252",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "met213_P_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "oh_line_213_211",
+        "property": "power_in_A"
+      }
+    },
+    {
+      "key": "met213_P_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "oh_line_213_211",
+        "property": "power_in_B"
+      }
+    },
+    {
+      "key": "met213_P_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "oh_line_213_211",
+        "property": "power_in_C"
+      }
+    },
+    {
+      "key": "inv296_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_296A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv296_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_296B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv296_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_296C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv273_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_273A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv274_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_274A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv276_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_276A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv276_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_276B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv276_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_276C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv277_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_277A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv277_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_277B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv279_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_279A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv279_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_279B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv284_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_284A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv284_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_284B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv284_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_284C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv282_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_282A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv282_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_282B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv282_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_282C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv281_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_281A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv281_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_281B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv281_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_281C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv289_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_289C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv288_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_288B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv287_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_287A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv287_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_287B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv287_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_287C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv286_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_286A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv286_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_286B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv286_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_286C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv320_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_320A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv320_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_320B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv320_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_320C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv318_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_318A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv318_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_318B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv318_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_318C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv316_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_316C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv321_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_321A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv321_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_321B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv321_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_321C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv319_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_319A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv319_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_319B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv319_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_319C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv315_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_315A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv317_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_317A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv317_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_317B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv317_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_317C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv294_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_294A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv294_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_294B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv294_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_294C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv280_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_280A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv314_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_314A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv314_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_314B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv314_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_314C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "met211_V_A",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_211",
+        "property": "measured_voltage_A"
+      }
+    },
+    {
+      "key": "met211_V_B",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_211",
+        "property": "measured_voltage_B"
+      }
+    },
+    {
+      "key": "met211_V_C",
+      "type": "complex",
+      "unit": "V",
+      "info": {
+        "object": "node_211",
+        "property": "measured_voltage_C"
+      }
+    },
+    {
+      "key": "inv285_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_285A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv285_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_285B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv285_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_285C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv283_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_283B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv278_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_278A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv275_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_275B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv268_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_268B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv272_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_272B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv271_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_271B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv312_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_312A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv312_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_312B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv312_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_312C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv290_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_290C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv313_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_313A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv313_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_313B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv313_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_313C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv322_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_322A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv322_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_322B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv322_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_322C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv323_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_323A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv323_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_323B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv323_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_323C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv326_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_326A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv326_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_326B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv326_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_326C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv295_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_295A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv295_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_295B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv295_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_295C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv324_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_324A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv324_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_324B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv324_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_324C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv328_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_328A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv328_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_328B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv328_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_328C",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv325_A",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_325A",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv325_B",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_325B",
+        "property": "VA_Out"
+      }
+    },
+    {
+      "key": "inv325_C",
+      "type": "complex",
+      "unit": "VA",
+      "info": {
+        "object": "inv_325C",
+        "property": "VA_Out"
+      }
+    }
+  ],
+  "subscriptions": [
+    {
+      "key": "inv300_ied/inv300_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_300A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv298_ied/inv298_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_298A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv298_ied/inv298_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_298B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv298_ied/inv298_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_298C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv307_ied/inv307_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_307B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv305_ied/inv305_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_305B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv299_ied/inv299_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_299A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv299_ied/inv299_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_299B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv299_ied/inv299_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_299C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv301_ied/inv301_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_301A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv301_ied/inv301_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_301B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv301_ied/inv301_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_301C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv303_ied/inv303_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_303C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv306_ied/inv306_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_306A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv306_ied/inv306_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_306B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv306_ied/inv306_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_306C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv304_ied/inv304_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_304A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv304_ied/inv304_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_304B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv304_ied/inv304_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_304C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv302_ied/inv302_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_302C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv329_ied/inv329_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_329A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv329_ied/inv329_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_329B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv329_ied/inv329_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_329C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv291_ied/inv291_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_291A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv291_ied/inv291_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_291B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv291_ied/inv291_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_291C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv310_ied/inv310_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_310A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv310_ied/inv310_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_310B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv310_ied/inv310_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_310C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv292_ied/inv292_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_292A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv292_ied/inv292_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_292B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv292_ied/inv292_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_292C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv327_ied/inv327_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_327A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv327_ied/inv327_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_327B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv327_ied/inv327_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_327C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv293_ied/inv293_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_293A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv297_ied/inv297_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_297A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv308_ied/inv308_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_308A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv308_ied/inv308_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_308B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv308_ied/inv308_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_308C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv269_ied/inv269_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_269A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv270_ied/inv270_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_270A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv309_ied/inv309_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_309B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv311_ied/inv311_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_311B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv296_ied/inv296_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_296A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv296_ied/inv296_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_296B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv296_ied/inv296_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_296C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv273_ied/inv273_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_273A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv274_ied/inv274_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_274A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv276_ied/inv276_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_276A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv276_ied/inv276_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_276B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv276_ied/inv276_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_276C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv277_ied/inv277_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_277A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv277_ied/inv277_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_277B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv279_ied/inv279_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_279A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv279_ied/inv279_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_279B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv284_ied/inv284_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_284A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv284_ied/inv284_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_284B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv284_ied/inv284_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_284C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv282_ied/inv282_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_282A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv282_ied/inv282_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_282B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv282_ied/inv282_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_282C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv281_ied/inv281_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_281A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv281_ied/inv281_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_281B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv281_ied/inv281_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_281C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv289_ied/inv289_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_289C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv288_ied/inv288_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_288B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv287_ied/inv287_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_287A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv287_ied/inv287_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_287B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv287_ied/inv287_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_287C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv286_ied/inv286_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_286A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv286_ied/inv286_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_286B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv286_ied/inv286_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_286C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv320_ied/inv320_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_320A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv320_ied/inv320_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_320B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv320_ied/inv320_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_320C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv318_ied/inv318_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_318A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv318_ied/inv318_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_318B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv318_ied/inv318_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_318C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv316_ied/inv316_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_316C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv321_ied/inv321_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_321A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv321_ied/inv321_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_321B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv321_ied/inv321_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_321C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv319_ied/inv319_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_319A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv319_ied/inv319_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_319B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv319_ied/inv319_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_319C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv315_ied/inv315_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_315A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv317_ied/inv317_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_317A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv317_ied/inv317_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_317B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv317_ied/inv317_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_317C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv294_ied/inv294_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_294A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv294_ied/inv294_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_294B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv294_ied/inv294_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_294C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv280_ied/inv280_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_280A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv314_ied/inv314_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_314A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv314_ied/inv314_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_314B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv314_ied/inv314_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_314C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv285_ied/inv285_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_285A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv285_ied/inv285_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_285B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv285_ied/inv285_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_285C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv283_ied/inv283_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_283B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv278_ied/inv278_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_278A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv275_ied/inv275_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_275B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv268_ied/inv268_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_268B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv272_ied/inv272_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_272B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv271_ied/inv271_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_271B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv312_ied/inv312_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_312A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv312_ied/inv312_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_312B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv312_ied/inv312_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_312C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv290_ied/inv290_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_290C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv313_ied/inv313_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_313A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv313_ied/inv313_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_313B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv313_ied/inv313_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_313C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv322_ied/inv322_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_322A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv322_ied/inv322_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_322B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv322_ied/inv322_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_322C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv323_ied/inv323_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_323A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv323_ied/inv323_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_323B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv323_ied/inv323_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_323C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv326_ied/inv326_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_326A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv326_ied/inv326_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_326B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv326_ied/inv326_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_326C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv295_ied/inv295_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_295A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv295_ied/inv295_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_295B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv295_ied/inv295_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_295C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv324_ied/inv324_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_324A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv324_ied/inv324_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_324B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv324_ied/inv324_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_324C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv328_ied/inv328_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_328A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv328_ied/inv328_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_328B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv328_ied/inv328_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_328C",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv325_ied/inv325_A_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_325A",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv325_ied/inv325_B_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_325B",
+        "property": "Q_Out"
+      }
+    },
+    {
+      "key": "inv325_ied/inv325_C_set",
+      "type": "double",
+      "unit": "VAr",
+      "info": {
+        "object": "inv_325C",
+        "property": "Q_Out"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+/home/gray/.virtualenvs/helics/bin/python /home/gray/git/CPMACosim/gridlabd/30_ders_advanced/dopf_reg2.py
+0
+area1: ***Solver returned with v_down=[[0.97365537 0.99716623 0.98292704]
+ [0.96864551 0.9985986  0.98139476]], and s_up=[0.81229191+0.44286172j 0.40087984+0.24554752j 0.55933471+0.30936831j] in 2.0010505139980523s
+area2: ***Solver returned with v_down=[[0.98317536 1.01890884 1.00083748]], and s_up=[0.44590807+0.18964377j 0.3077691 +0.10417409j 0.30435582+0.08601362j] in 1.366202193999925s
+area3: ***Solver returned with s_up=[0.15961998+0.00091195j 0.15889922+0.00270967j 0.08074183+0.00048949j] in 5.179980115000944s
+area4: ***Solver returned with s_up=[0.34975598+0.03936696j 0.20963495+0.01879236j 0.24404736+0.02807686j] in 10.292585819999658s
+1
+area1: ***Solver returned with v_down=[[0.98501051 1.00254574 0.98980301]
+ [0.98385272 1.00401872 0.98765689]], and s_up=[0.79616149+0.07865994j 0.38965189-0.00222355j 0.54404825+0.02564784j] in 1.9410434679994069s
+area2: ***Solver returned with v_down=[[0.9664216  0.99424322 0.97505573]], and s_up=[0.42287481+0.01642521j 0.26031904+0.00129154j 0.29064348+0.00477239j] in 5.900231273000827s
+area3: ***Solver returned with s_up=[0.15578253+0.00091195j 0.15444385+0.0019662j  0.07781983+0.00048949j] in 5.782311929000571s
+area4: ***Solver returned with s_up=[0.35013102+0.03944182j 0.20962386+0.0188536j  0.24480561+0.02807346j] in 9.854833761997725s
+max_v_diff=0.025781750295500006
+max_diff=0.1732185628049309
+max boundary error = 0.025781750295500006
+2
+area1: ***Solver returned with v_down=[[0.98889397 1.00329743 0.98951014]
+ [0.986057   1.00446955 0.98708184]], and s_up=[0.77112911+0.0157896j  0.33784123-0.00240376j 0.52739608+0.010778j  ] in 1.8742959030023485s
+area2: ***Solver returned with v_down=[[0.97776829 0.99965895 0.98190277]], and s_up=[0.42691138+0.01707767j 0.26154385+0.00129226j 0.293068  +0.00477225j] in 5.868376275000628s
+area3: ***Solver returned with s_up=[0.15828245+0.00091195j 0.15533903+0.00241029j 0.07855814+0.00048949j] in 5.429990837998048s
+area4: ***Solver returned with s_up=[0.35067207+0.03981195j 0.21004468+0.01878569j 0.24469196+0.02812641j] in 14.347852409999177s
+max_v_diff=0.011346697787375626
+max_diff=0.011346697787375626
+max boundary error = 0.011346697787375626
+3
+area1: ***Solver returned with v_down=[[0.98879345 1.00334993 0.98942592]
+ [0.98591254 1.00453624 0.98698003]], and s_up=[0.77755615+0.01584195j 0.33998295-0.00239965j 0.53050465+0.01077799j] in 2.1574589840020053s
+area2: ***Solver returned with v_down=[[0.98161589 1.00044473 0.98160377]], and s_up=[0.42870163+0.01711606j 0.26214413+0.00129146j 0.29288247+0.00477453j] in 5.900735221999639s
+area3: ***Solver returned with s_up=[0.15864789+0.00091195j 0.15541429+0.00243188j 0.07848991+0.00048949j] in 4.6706509979994735s
+area4: ***Solver returned with s_up=[0.35038978+0.03973591j 0.20979281+0.01893199j 0.24485537+0.02815694j] in 10.4399028609987s
+max_v_diff=0.0038475967916336007
+max_diff=0.0038475967916336007
+max boundary error = 0.0038475967916336007
+4
+area1: ***Solver returned with v_down=[[0.98873298 1.00338333 0.98942358]
+ [0.98584617 1.00457324 0.98697595]], and s_up=[0.77966374+0.01584503j 0.34067001-0.00239946j 0.53025148+0.01077814j] in 2.002998493000632s
+area2: ***Solver returned with v_down=[[0.98153149 1.00049301 0.98151269]], and s_up=[0.42839422+0.01710817j 0.26190331+0.00129318j 0.29302172+0.00477584j] in 6.3728429910006525s
+area3: ***Solver returned with s_up=[0.15862386+0.00091195j 0.15542525+0.00243505j 0.07847793+0.00048949j] in 6.94870978200197s
+area4: ***Solver returned with s_up=[0.34963458+0.0392542j  0.20997385+0.01885198j 0.24477753+0.02836269j] in 9.349801683998521s
+max_v_diff=9.108471906837945e-05
+max_diff=0.0007552043018843047
+max boundary error = 9.108471906837945e-05
+Converged after 4 iterations
+total objective value for DOPF:0.034383657124708714
+Time taken for DOPF: 132.70666570100002 seconds
+/home/gray/git/CPMACosim/gridlabd/30_ders_advanced/dopf_reg2.py:288: FutureWarning: The behavior of array concatenation with empty entries is deprecated. In a future version, this will no longer exclude empty items when determining the result dtype. To retain the old behavior, exclude the empty entries before the concat operation.
+  reg = pd.concat(reg_list)
+/home/gray/git/CPMACosim/gridlabd/30_ders_advanced/dopf_reg2.py:288: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  reg = pd.concat(reg_list)
+Time taken for COPF: 43.72763145999852 seconds
+objective value from COPF: 0.03480234772278558
+a         0.0
+b         0.0
+c    0.001944
+dtype: object
+a    0.006424
+b    0.000000
+c    0.004484
+dtype: float64
+a    0.039900
+b    0.026267
+c    0.016499
+dtype: float64
+
+Process finished with exit code 0

@@ -1,0 +1,27 @@
+/home/gray/.virtualenvs/helics/bin/python /home/gray/git/CPMACosim/gridlabd/30_ders_advanced/output/cvr/dss_validate_copf.py
+v diff
+a    0.005886
+b    0.003362
+c    0.003295
+dtype: float64
+dopf total p loads
+pl_a    1.408071
+pl_b    0.950354
+pl_c    1.153104
+dtype: float64
+dopf total q loads
+ql_a    0.747358
+ql_b    0.570987
+ql_c    0.613695
+dtype: float64
+dss total p loads
+pl_a    1.407162
+pl_b    0.936868
+pl_c    1.143488
+dtype: float64
+dss total q loads
+ql_a    0.747227
+ql_b    0.563459
+ql_c    0.607757
+dtype: float64
+0.028510918768668625
